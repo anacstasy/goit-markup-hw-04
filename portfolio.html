@@ -22,11 +22,11 @@
         <div class="container container-header">
 
             <nav class="main-nav header-flex">
-                <a href="./index.html" class="logo" lang="en"><span class="blue-logo">Web</span>Studio</a>
+                <a href="./index.html" class="logo" target="blank" rel="noopener noreferrer" lang="en"><span class="blue-logo">Web</span>Studio</a>
                 <ul class="site-nav">
-                    <li class="item"><a href="./index.html" class="site-nav">Студия</a></li>
-                    <li class="item"><a href="./portfolio.html" class="site-nav portfolio">Портфолио</a></li>
-                    <li class="item"><a href="" class="site-nav">Контакты</a></li>
+                    <li class="item"><a href="./index.html" class="site-nav" target="blank" rel="noopener noreferrer">Студия</a></li>
+                    <li class="item"><a href="./portfolio.html" class="site-nav portfolio" target="blank" rel="noopener noreferrer">Портфолио</a></li>
+                    <li class="item"><a href="" class="site-nav" target="blank" rel="noopener noreferrer">Контакты</a></li>
                 </ul>
 
             </nav>
@@ -34,13 +34,16 @@
             <!-- Ссылки -->
 
             <ul class="auth-nav container-authnav">
-                <li class="auth-item"> <a class="link" href="mailto:info@devstudio.com">info@devstudio.com
-                    </a>
-                </li>
-                <li class="auth-item"> <a class="link" href="tel:+380961111111">+38 096 111 11 11
-                    </a>
-                </li>
-</ul>
+                <li class="auth-item"> <a class="link" href="mailto:info@devstudio.com" target="blank" rel="noopener noreferrer">
+                    <svg class="link-letter" width="16" height="12"><use href="./images/vectorimgs/sprite.svg#icon-envelope" width="16" height="12"></use></svg>info@devstudio.com
+                </a>
+            </li>
+            <li class="auth-item"> <a class="link" href="tel:+380961111111" target="blank" rel="noopener noreferrer">
+                <svg class="link-phone" width="10" height="16"><use href="./images/vectorimgs/sprite.svg#icon-smartphone" width="10" height="16"></use></svg>+38 096 111 11 11
+                </a>
+            </li>
+               </ul>
+
         </div>
     </header>
 
@@ -159,16 +162,57 @@
 
 
     <footer class="footer">
-        <div class="div-footer">
-            <a href="./index.html" class="footer-logo" lang="en"><span class="blue-logo">Web</span>Studio</a>
-            <address class="container-footer">
-                <ul class="footer-nav">
-                    <li><a href="" class="link address">г. Киев, пр-т Леси Украинки, 26</a></li>
-                    <li><a href="mailto:info@example.com" class="link">info@example.com</a> </li>
-                    <li><a href="tel:+380991111111" class="link">+38 099 111 11 11</a></li>
+
+        <div class="container foot-wrapper">
+
+            <div class="hello-footer">
+                <a href="./index.html" class="footer-logo" target="blank" rel="noopener noreferrer" lang="en"><span class="blue-logo">Web</span>Studio</a>
+                <address class="container-footer">
+                    <ul class="footer-nav">
+                        <li><a href="" class="link address" target="blank" rel="noopener noreferrer">г. Киев, пр-т Леси Украинки, 26</a></li>
+                        <li><a href="mailto:info@example.com" class="link" target="blank" rel="noopener noreferrer">info@example.com</a> </li>
+                        <li><a href="tel:+380991111111" class="link" target="blank" rel="noopener noreferrer">+38 099 111 11 11</a></li>
+                    </ul>
+                </address>
+            </div>
+    
+            <div class="container-joinus">
+                
+                <h2 class="joinus">Присоединяйтесь</h2>
+
+                <ul class="inviting">
+                    <li class="social-dark">
+                        <a class="inviting-list" href="" target="blank" rel="noopener noreferrer">
+                            <svg class="social-invite" width="20" height="20">
+                                <use href="./images/vectorimgs/sprite.svg#icon-instagram"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social-dark">
+                        <a class="inviting-list" href="" target="blank" rel="noopener noreferrer">
+                            <svg class="social-invite" width="20" height="20">
+                                <use href="./images/vectorimgs/sprite.svg#icon-twitter"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social-dark">
+                        <a class="inviting-list" href="" target="blank" rel="noopener noreferrer">
+                            <svg class="social-invite" width="20" height="20">
+                                <use href="./images/vectorimgs/sprite.svg#icon-facebook"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social-dark">
+                        <a class="inviting-list" href="" target="blank" rel="noopener noreferrer">
+                            <svg class="social-invite" width="20" height="20">
+                                <use href="./images/vectorimgs/sprite.svg#icon-linkedin"></use>
+                            </svg>
+                        </a>
+                    </li>
                 </ul>
-            </address>
+            </div>
         </div>
+        
     </footer>
 
 </body>

@@ -377,16 +377,14 @@ position: relative;
  
 }
 
-.area-lable {
 
+
+.paragraf {
   min-width: 370px;
   
 
   background-color: rgba(47, 48, 58, 0.8);
-  border: 0;
-}
 
-.paragraf {
   margin: 0 auto;
   padding: 27px 0;
 

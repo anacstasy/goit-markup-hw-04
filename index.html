@@ -56,7 +56,24 @@
         <section class="hero">
             <div class="container">
                 <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
-                <button type="button" class="button">Заказать услугу</button>
+               
+               
+               
+               
+                <button data-modal-open type="button" class="button">Заказать услугу</button>
+            </div>
+
+
+            <div class="backdrop is-hidden" data-modal>
+
+                <div class="modal">
+
+                    <p></p>
+
+                    <button class="close-button" data-modal-close>
+                        <svg class="item-close"  width="18" height="18"><use class="vector" href="./images/vectorimgs/sprite.svg#icon-close-black"></use></svg>
+                    </button>
+                </div>
             </div>
 
         </section>
@@ -120,13 +137,33 @@
                 <ul class="feature-img">
                     <li class="item-img"><img src="./images/our-spesialize1.jpg"
                             alt="руки на клавиатуре перед планшетом" width="370" class="section-img">
-                    </li>
+                    
+
+                    <div class="product-action">
+                        <p class="paragraf area-lable">Десктопные приложения</p>
+                    
+                    </div>
+                </li>
+
                     <li class="item-img"><img src="./images/our-spesialize2.jpg" alt="ноутбук и смартфон" width="370"
                             class="section-img">
-                    </li>
+                   
+
+                    <div class="product-action">
+                        <p class="paragraf">Мобильные приложения</p>
+                    </div>
+                </li>
+
                     <li class="item-img"><img src="./images/our-spesialize3.jpg" alt="планшет с шестиугольником"
                             width="370" class="section-img">
-                    </li>
+                    
+
+                    <div class="product-action">
+                        <p class="paragraf">Дизайнерские приложения</p>
+                    </div>
+
+                </li>
+
                 </ul>
             </div>
         </section>
@@ -140,9 +177,13 @@
 
                     <li class="feature-item"><img src="./images/igor1.jpg" alt="мужчина в бордовой рубашке" width="270"
                             class="section-img2">
+
                        <div class="card-staff">
+
                         <h3 class="feature-title">Игорь Демьяненко</h3>
+
                         <p class="feature-description" lang="en">Product Designer</p>
+
                         <ul class="media-wrapper">
                             
                             <li class="social-media"><a class="social" href="" target="blank" rel="noopener noreferrer">
@@ -168,14 +209,19 @@
                                     <use href="./images/vectorimgs/sprite.svg#icon-linkedin"></use>
                                 </svg>
                             </a></li>
+                       
                         </ul>
-
+                    </div>
 
                     <li class="feature-item"><img src="./images/olga2.jpg" alt="женщина блондинка" width="270"
                             class="section-img2">
+
                         <div class="card-staff">
+
                             <h3 class="feature-title">Ольга Репина</h3>
+
                         <p class="feature-description" lang="en">Frontend Developer</p>
+
                         <ul class="media-wrapper">
                             
                             <li class="social-media"><a class="social" href="" target="blank" rel="noopener noreferrer">
@@ -202,12 +248,17 @@
                                 </svg>
                             </a></li>
                         </ul>
+                        </div>
 
                     <li class="feature-item"><img src="./images/nicolaj3.jpg" alt="мужчина в белой рубашке" width="270"
                             class="section-img2">
+
                         <div class="card-staff">
+
                             <h3 class="feature-title">Николай Тарасов</h3>
+
                         <p class="feature-description" lang="en">Marketing</p>
+
                         <ul class="media-wrapper">
                             
                             <li class="social-media"><a class="social" href="" target="blank" rel="noopener noreferrer">
@@ -234,11 +285,15 @@
                                 </svg>
                             </a></li>
                         </ul>
+                        </div>
 
                     <li class="feature-item"><img src="./images/michail4.jpg" alt="мужчина в черной футболке"
                             width="270" class="section-img2">
+
                        <div class="card-staff">
+
                         <h3 class="feature-title">Михаил Ермаков</h3>
+                        
                         <p class="feature-description" lang="en">UI Designer</p>
                         
                         <ul class="media-wrapper">
@@ -378,6 +433,9 @@
         </div>
         
     </footer>
+
+    <script src="./js/modal.js"></script>
+
 </body>
 </html>
 

@@ -1,25 +1,4 @@
-/* body font-family roboto  */
-/* body text color  #212121
-secondary text color rgba(117, 117, 117, 1)
-link and contact color #757575 
-accent color #2196F3 */
 
-/* logo font  Oleo Script
-web color #2196F3 */
-
-/* body text hover color white*/
-
-/* header background color #FFFFFF 
-          text hover color #2196F3 */
-
-/* main
-       background color #E5E5E5  
-       text hover color white 
-       button hover volor blue*/
-/* footer
-       background color  #2F303A */
-
-/* Переменные */
 
 :root {
   --main-text-color: #212121;
